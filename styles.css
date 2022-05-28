@@ -15,7 +15,7 @@ h1 {
     justify-content: flex-end;
     /* align-self: flex-end; */
     margin-bottom: 20px;
-    padding-right: 30px;
+    /* padding-right: 30px; */
     color: white;
     /* font-size: 500px; */
 }
@@ -29,6 +29,7 @@ h2 {
     margin-top: 40px;
     font-weight: lighter;
     cursor:default;
+    color:rgba(0,0,0, .65)
 }
 
 h3{
@@ -126,6 +127,13 @@ img:hover {
 
 .shares-img {
     filter: invert(100%);
+}
+
+.water-img {
+    filter: invert(100%);
+    width: 40px;
+    height: 40px;
+    margin: 16px 0 0 15px;
 }
 
 .turtle {
